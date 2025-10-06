@@ -1,0 +1,28 @@
+how to read an json file in lua ?  
+
+-- gave json file 
+
+                                       
+runner.rb:643:in write': Broken pipe (Errno::EPIPE) from runner.rb:643:in puts' from runner.rb:643:in block (2 levels) in run' from runner.rb:605:in each' from runner.rb:605:in with_index' from runner.rb:605:in block in run' from runner.rb:534:in loop' from runner.rb:534:in run' from runner.rb:933:in <main>' abc@fe22899f062d:~/Hihih/hidden-gems$ were is the error ?
+
+-- gave the ai an  error
+
+-- sended improved version to check for errors  
+
+-- gave config from https://hiddengems.gymnasiumsteglitz.de/gettingstarted
+
+-- asked to add print fuction // added https://github.com/specht/hidden-gems/blob/master/random-walker/lua/bot.lua after need more help undertsan what i meant
+
+-- asked for fix in loop 4 times
+
+-- sended improved version to check for errors  
+
+-- gave bot the config again
+
+-- sended improved version to check for errors  
+
+--- removed it bc it was bad 
+
+-- asked to make walls work 
+
+- asmed for help macking the best move ment part 
