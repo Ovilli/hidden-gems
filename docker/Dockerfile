@@ -69,5 +69,8 @@ RUN chown -R runner:runner /app
 RUN chown -R runner:runner /usr/local/julia
 USER runner
 
+RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
+RUN mkdir -p /home/runner/.cargo && echo "[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.vendored-sources]\ndirectory = \"vendor\"" >> /home/runner/.cargo/config
+
 ENTRYPOINT ["/usr/bin/tini","--"]
 CMD ["/launch.sh"]
